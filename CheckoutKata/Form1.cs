@@ -1,3 +1,5 @@
+using static CheckoutKata.PriceCalculations;
+
 namespace CheckoutKata
 {
     public partial class Form1 : Form
@@ -10,6 +12,9 @@ namespace CheckoutKata
         public Form1()
         {
             InitializeComponent();
+            DisplayCosts();
+            //DisplayTotal();
+            
         }
 
         public int increment(int value)
@@ -26,7 +31,30 @@ namespace CheckoutKata
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
 
+        }
+
+        void DisplayCosts()
+        {
+            PriceA.Text = PriceCalculations.UnitPriceA.ToString();
+            PriceB.Text = PriceCalculations.UnitPriceB.ToString();
+            PriceC.Text = PriceCalculations.UnitPriceC.ToString();
+            PriceD.Text = PriceCalculations.UnitPriceD.ToString();
+        }
+
+        public decimal CalculateTotal()
+        {
+
+            Decimal TotalA = PriceCalculations.TotalPriceA(PriceCalculations.UnitPriceA, quantA);
+            Decimal TotalB = PriceCalculations.TotalPriceB(PriceCalculations.UnitPriceB, quantB);
+            Decimal TotalC = PriceCalculations.TotalPriceC(PriceCalculations.UnitPriceC, quantC);
+            Decimal TotalD = PriceCalculations.TotalPriceD(PriceCalculations.UnitPriceD, quantD);
+
+            Decimal Total = PriceCalculations.TotalPrice(TotalA, TotalB, TotalC, TotalD);
+            
+
+            return Total;
         }
 
         private void decrementA_Click(object sender, EventArgs e)
@@ -71,10 +99,16 @@ namespace CheckoutKata
             quantityD.Text = quantD.ToString();
         }
 
-        private void IncrementD_Click(object sender, EventArgs e)
+        private void incrementD_Click(object sender, EventArgs e)
         {
             quantD = increment(quantD);
             quantityD.Text = quantD.ToString();
+        }
+
+        private void calculateCost_Click(object sender, EventArgs e)
+        {
+            decimal Total = CalculateTotal();
+            TotalPrice.Text = Total.ToString();
         }
     }
 }

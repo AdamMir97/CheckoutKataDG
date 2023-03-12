@@ -8,17 +8,17 @@ namespace CheckoutKata
 {
     internal class PriceCalculations
     {
-        int UnitPriceA = 10;
-        int UnitPriceB = 15;
-        int UnitPriceC = 40;
-        int UnitPriceD = 55;
+        public static int UnitPriceA = 10;
+        public static int UnitPriceB = 15;
+        public static int UnitPriceC = 40;
+        public static int UnitPriceD = 55;
 
-        public decimal TotalPriceA(int PriceA, int QuantA)
+        public static decimal TotalPriceA(int PriceA, int QuantA)
         {
             return PriceA * QuantA;
         }
 
-        public decimal TotalPriceB(int PriceB, int QuantB)
+        public static decimal TotalPriceB(int PriceB, int QuantB)
         {
             //discount condition; if B is bought in batches of 3, pay 40 for 3
             int DiscountPriceB = 40;
@@ -37,12 +37,12 @@ namespace CheckoutKata
                 
         }
 
-        public decimal TotalPriceC(int PriceC, int QuantC)
+        public static decimal TotalPriceC(int PriceC, int QuantC)
         {
             return PriceC * QuantC;
         }
 
-        public decimal TotalPriceD(int PriceD, int QuantD)
+        public static decimal TotalPriceD(int PriceD, int QuantD)
         {
             //discount condition; apply a 25% off discount for all pairs of items
             decimal DiscountPriceD = 0.75m;
@@ -65,7 +65,7 @@ namespace CheckoutKata
             
         }
 
-        public decimal TotalPrice( decimal TotA, decimal TotB, decimal TotC, decimal TotD)
+        public static decimal TotalPrice( decimal TotA, decimal TotB, decimal TotC, decimal TotD)
         {
             return TotA + TotB + TotC + TotD;
         }
