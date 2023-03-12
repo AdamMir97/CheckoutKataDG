@@ -1,0 +1,17 @@
+C:\Users\Adam\source\repos\CheckoutKata\CheckoutKata\obj\Debug\net6.0-windows\CheckoutKata.csproj.AssemblyReference.cache
+C:\Users\Adam\source\repos\CheckoutKata\CheckoutKata\obj\Debug\net6.0-windows\CheckoutKata.Form1.resources
+C:\Users\Adam\source\repos\CheckoutKata\CheckoutKata\obj\Debug\net6.0-windows\CheckoutKata.csproj.GenerateResource.cache
+C:\Users\Adam\source\repos\CheckoutKata\CheckoutKata\obj\Debug\net6.0-windows\CheckoutKata.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adam\source\repos\CheckoutKata\CheckoutKata\obj\Debug\net6.0-windows\CheckoutKata.AssemblyInfoInputs.cache
+C:\Users\Adam\source\repos\CheckoutKata\CheckoutKata\obj\Debug\net6.0-windows\CheckoutKata.AssemblyInfo.cs
+C:\Users\Adam\source\repos\CheckoutKata\CheckoutKata\obj\Debug\net6.0-windows\CheckoutKata.csproj.CoreCompileInputs.cache
+C:\Users\Adam\source\repos\CheckoutKata\CheckoutKata\bin\Debug\net6.0-windows\CheckoutKata.exe
+C:\Users\Adam\source\repos\CheckoutKata\CheckoutKata\bin\Debug\net6.0-windows\CheckoutKata.deps.json
+C:\Users\Adam\source\repos\CheckoutKata\CheckoutKata\bin\Debug\net6.0-windows\CheckoutKata.runtimeconfig.json
+C:\Users\Adam\source\repos\CheckoutKata\CheckoutKata\bin\Debug\net6.0-windows\CheckoutKata.dll
+C:\Users\Adam\source\repos\CheckoutKata\CheckoutKata\bin\Debug\net6.0-windows\CheckoutKata.pdb
+C:\Users\Adam\source\repos\CheckoutKata\CheckoutKata\obj\Debug\net6.0-windows\CheckoutKata.dll
+C:\Users\Adam\source\repos\CheckoutKata\CheckoutKata\obj\Debug\net6.0-windows\refint\CheckoutKata.dll
+C:\Users\Adam\source\repos\CheckoutKata\CheckoutKata\obj\Debug\net6.0-windows\CheckoutKata.pdb
+C:\Users\Adam\source\repos\CheckoutKata\CheckoutKata\obj\Debug\net6.0-windows\CheckoutKata.genruntimeconfig.cache
+C:\Users\Adam\source\repos\CheckoutKata\CheckoutKata\obj\Debug\net6.0-windows\ref\CheckoutKata.dll
