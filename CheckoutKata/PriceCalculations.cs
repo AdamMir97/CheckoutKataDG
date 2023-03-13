@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CheckoutKata
 {
-    internal class PriceCalculations
+    public class PriceCalculations
     {
         public static int UnitPriceA = 10;
         public static int UnitPriceB = 15;
